@@ -1,0 +1,47 @@
+# ♻️ Smart Waste Segregation
+
+## AI-Based Waste Classification using MobileNetV2
+
+Smart Waste Segregation is an AI-powered image classification application that identifies different types of waste from uploaded images and provides appropriate disposal suggestions.
+
+### Features
+- Upload waste images (JPG, JPEG, PNG).
+- Classify waste into six categories.
+- Display prediction confidence.
+- Provide waste disposal suggestions.
+
+### Waste Categories
+1. Cardboard
+2. Glass
+3. Metal
+4. Paper
+5. Plastic
+6. Trash
+
+### Technologies Used
+- Python
+- TensorFlow
+- MobileNetV2
+- Streamlit
+- NumPy
+- Pillow
+
+### Model Performance
+The trained MobileNetV2 model achieved **80% test accuracy** on the test dataset.
+
+### How to Run Locally
+
+1. Clone this repository.
+2. Install the required packages:
+
+   `pip install -r requirements.txt`
+
+3. Run the application:
+
+   `python -m streamlit run app/app.py`
+
+### Project Purpose
+The purpose of this project is to encourage proper waste segregation and promote environmental awareness through AI technology.
+
+### Author
+Created as an AI and Machine Learning Capstone Project.
